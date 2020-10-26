@@ -60,6 +60,7 @@ void LoggedTopics::add_default_topics()
 	add_topic("estimator_innovation_test_ratios", 200);
 	add_topic("estimator_innovation_variances", 200);
 	add_topic("estimator_innovations", 200);
+	add_topic("estimator_optical_flow_vel");
 	add_topic("estimator_sensor_bias", 1000);
 	add_topic("estimator_states", 1000);
 	add_topic("estimator_status", 200);
@@ -109,7 +110,6 @@ void LoggedTopics::add_default_topics()
 	add_topic("vehicle_status_flags");
 	add_topic("vtol_vehicle_status", 200);
 	add_topic("yaw_estimator_status", 200);
-	add_topic("optical_flow_vel", 200);
 
 	// multi topics
 	add_topic_multi("actuator_outputs", 100, 2);
